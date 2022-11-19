@@ -20,6 +20,6 @@ f <- function(x){
 }
 trapezoid(f,c(1,4),1000)
 integrate(f,1,4)
-?integrate()
+
 ''
 }
