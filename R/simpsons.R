@@ -1,9 +1,13 @@
-#Title
-#@param f
-#@param range
-#@param n
-#@return
-#@export
+
+#' Title: simpsons integration function
+#' @param f :the function that we want to integrate
+#' @param range: the integration range (a,b)
+#' @param n : the number of intervals we want to create
+#'
+#' @return the integration result by simpsons
+#' @export
+#'
+#' @examples :simpsons(my_function,c(1,4),100)
 simpsons<-function(f,range,n ){
   a<-range[1]
   b<-range[2]
