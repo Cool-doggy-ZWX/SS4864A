@@ -1,9 +1,5 @@
-#Title
-#@param f
-#@param range
-#@param n
-#@return
-#@export
+
+
 trapezoid<-function(f,range,n ){
   a<-range[1]
   b<-range[2]
@@ -14,12 +10,12 @@ trapezoid<-function(f,range,n ){
 }
 
 if(FALSE){
-''
-f <- function(x){
-  x^2
-}
-trapezoid(f,c(1,4),1000)
-integrate(f,1,4)
+  ''
+  f <- function(x){
+    x^2
+  }
+  trapezoid(f,c(1,4),1000)
+  integrate(f,1,4)
 
-''
+  ''
 }

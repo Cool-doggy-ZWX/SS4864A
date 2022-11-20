@@ -1,5 +1,5 @@
 
-#' Title
+#' Title: riemann integration function
 #'
 #' @param f :the function that we want to integrate
 #' @param range: the integration range (a,b)
